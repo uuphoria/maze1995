@@ -1,2 +1,2 @@
-# maze95-js.github.io
+# maze95.github.io
 GitHub pages for Maze 95 JS.
