@@ -1,15 +1,32 @@
-<html>
-<head>
-  <title>Maze 95 JS</title>
-</head>
-<body>
-  <style>
-    body {
-      display: block;
-      border: 0;
-      margin: 0;
-    }
-  </style>
-  <iframe src="./maze95-js/index.html" title="Maze 95 JS" style="border: 0; margin: 0; width: 100%; height: 100%;">Upgrade your browser, iframe support is needed.</iframe>
-</body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="stylesheet" href="./maze95-js/index.css">
+    <title>Maze 95 JS</title>
+    <meta content="Maze 95 JS" property="og:title">
+    <meta content="Recreation of the Windows 95 3D Maze screensaver but interactive as a game, it is in it's very early development stages and only the maze map is meant for testing model loading and is not final.">
+    <meta content="https://agent-11.github.io/projects/maze95-js/" property="og:url">
+    <meta content="./textures/fin.png" property="og:image">
+    <link rel="icon" type="image/png" href="./textures/fin.png"/>
+    <meta content="#941d15" data-react-helmet="true" name="theme-color">
+  </head>
+  <body>
+    <h1>Maze 95 JS</h1>
+    <h2>Maze 95 JS is a port of the classic Windows 95 screensaver "3D Maze" into a playable web game.</h2>
+    <h2>Some things to know:</h2>
+    <pre>
+      I have created the maze95 account for storing maze95-js, I'm Agent-11 / Agent X.
+
+      Maze 95 JS could not be possible with my skills if it wasn't for Three JS, a JavaScript library that makes WebGL development much less head-bashing.
+      Maze 95 JS also uses Keydrown, an input library I figured out existed through working on <a href="https://github.com/sm64js/sm64js">sm64js</a>.
+      Collision is still a fully work in progress feature, only a part of the maze has collision in it being the beginning part.
+    </pre>
+    <button onclick="window.location.href = '/maze95-js/index.html'" style="width: 100px; height: 40px; font-size: 20px;">Play!</button>
+    <h2>Special Thanks To:</h2><br>
+    <a href="https://luphoria.com/nmjs/index.html">luphoria for his helping with collision and my inital discovery of Three JS.</a><br>
+    <p>The page isn't the prettiest right now, will probably work on that later.</p>
+  </body>
 </html>
