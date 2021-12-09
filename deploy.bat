@@ -26,3 +26,6 @@ set /p changed=What has changed?
 
 git commit -m "Deploy '%changed%'"
 git push
+
+echo Done!
+pause
