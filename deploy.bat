@@ -6,11 +6,13 @@ rmdir .git
 del /f README.md
 
 move .\* ..\
+move game ..\game
+move textures ..\textures
 cd ..
-rmdir /s temp_clone
+rmdir /s /Q temp_clone
 git add -A
 
-set /p changed=What has changed?
+set /p changed=What has changed? 
 
 git commit -m "Deploy '%changed%'"
 git push
