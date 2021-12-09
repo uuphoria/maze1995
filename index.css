@@ -1,12 +1,14 @@
 @font-face {
     font-family: ms-sans-serif;
-    src: url('game/font/ms-sans-serif.otf');
+    font-display: swap;
+    src: url(ad7cea682bb510ac5f4a.otf);
 }
 
 body {
     color: white;
     background-color: rgb(1, 130, 129);
-    font-family: 'ms-sans-serif';
+    font-family: 'ms-sans-serif', sans-serif;
+    font-size: 20px;
     display: grid;
     place-items: center;
     text-align: center;
@@ -17,35 +19,26 @@ h1 {
 }
 
 a {
-    color: rgb(255, 255, 50);
+    color: white;
     font-size: 20px;
 }
 
 label, p, pre {
-    font-family: 'ms-sans-serif';
+    font-family: 'ms-sans-serif', sans-serif;
     font-size: 20px;
 }
 
 button {
-    background-image: url("textures/button.png");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background-image: url(3c9a05421f338c6df22c.png);
     background-size: cover;
-    font-family: 'ms-sans-serif';
-}
-
-#reset, #fullscreenbtn {
+    font-family: 'ms-sans-serif', sans-serif;
     font-size: 17px;
 }
 
 select {
-    background-image: url("textures/button.png");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background-image: url(3c9a05421f338c6df22c.png);
     background-size: cover;
-    font-family: 'ms-sans-serif';
+    font-family: 'ms-sans-serif', sans-serif;
 }
 
 .gameCanvas {
