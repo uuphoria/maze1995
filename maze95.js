@@ -25,8 +25,6 @@ window.enterFullscreen = () => {
   document.getElementById("game").requestFullscreen()
 }
 
-if (window.widescreen) document.getElementById("game").style = null
-
 //Dynamic scaling for widescreen
 window.addEventListener('resize', () =>
 {
