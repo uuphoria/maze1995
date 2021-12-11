@@ -2,17 +2,20 @@
 
 del /f .gitattributes
 del /f .gitignore
-del /f canvas-only.html
+del /f mobile.html
 del /f index.css
 del /f index.html
 del /f manifest.json
-del /f manifest2.json
+del /f manifestm.json
 del /f maze95.js
 del /f sw.js
+del /f sw.js.map
+del /f workbox-e628b7cf.js
+del /f workbox-e628b7cf.js.map
 
 git clone https://github.com/maze95/maze95-js temp_clone
 cd temp_clone
-rmdir .git
+rmdir /s /Q .git
 del /f README.md
 
 move .\* ..\

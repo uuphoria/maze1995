@@ -3,7 +3,7 @@
   "background_color": "#018281",
   "orientation": "portrait",
   "display": "fullscreen",
-  "start_url": "/",
+  "start_url": "/mobile.html",
   "name": "Maze 95 JS",
   "short_name": "Maze 95 JS",
   "description": "Recreation of the Windows 95 \"3D Maze\" screensaver in JavaScript using Three.js.",
