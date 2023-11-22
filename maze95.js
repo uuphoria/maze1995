@@ -11,8 +11,8 @@ import { startObj } from "./game/object_defines.js" // object
 
 // viewport properties
 window.widescreen = false
-let width = 670
-let height = 500
+let width = 650
+let height = 488
 
 let renderer = new THREE.WebGLRenderer({
   canvas: document.querySelector('#game'),
